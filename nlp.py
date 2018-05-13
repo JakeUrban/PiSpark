@@ -34,7 +34,7 @@ def get_bag_and_tokenize(data, text_col):
         t = data.iloc[i][text_col]
         try:
             t.encode('ascii')
-            words = set(sentence_wrangler(t)[0])
+            words = sentence_wrangler(t)[0]
             for word in words:
                 if word not in bag:
                     bag.add(word)
