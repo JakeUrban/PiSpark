@@ -18,7 +18,7 @@ Apparently 5 cores per executor is ideal, but we only have 6 cores total so we'l
 Next:
 
 For the head node:
-- Put your local computings public key in the head node's .ssh/authorized_keys file
+- Put your local computer's public key in the head node's .ssh/authorized_keys file
 - sudo apt-get update
 - sudo apt-get install default-jre
 - Add JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64/jre" to .profile or .bashrc
