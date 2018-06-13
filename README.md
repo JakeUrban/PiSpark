@@ -47,3 +47,5 @@ For all nodes:
 
 This will create an ssh tunnel for the jupyter notebook you just launched. Go to https://localhost:8081 to use the notebook as usual. The notebook will take it from there.
 
+Note: you should also create tunnels for your spark cluster UI once you start it in the notebook. The spark UI uses port 8080, and the application UI is 4040, once you start that.
+
